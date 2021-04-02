@@ -9,8 +9,6 @@ defmodule MyApp.Auth.User do
     property :email, :string
   end
 
-#  def __schema__(:redact_fields), do: [:password]
-
   def changeset(%MyApp.Auth.User{} = user, params \\ %{}) do
     user
     |> cast(params, [:identifier, :password, :name, :email])
