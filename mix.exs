@@ -22,7 +22,7 @@ defmodule MyApp.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 3.2.0"},
+      {:ecto, "~> 3.5.0"},
       {:seraph, "~> 0.2"}
     ]
   end

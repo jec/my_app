@@ -55,6 +55,8 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/db_connection" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ssl_verify_fun" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/unicode_util_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/meck" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/espec" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="seraph" level="project" />
